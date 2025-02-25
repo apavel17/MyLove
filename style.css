@@ -70,6 +70,8 @@ body {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
 }
 
 .tab-navigation a:hover {
