@@ -46,10 +46,13 @@ body {
 
 .tab-navigation {
     position: fixed;
-    bottom: 0;
-    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     background-color: #333;
     overflow: hidden;
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
 }
 
 .tab-navigation ul {
@@ -57,11 +60,12 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: space-around;
+    justify-content: center; /* Center the list items horizontally */
 }
 
 .tab-navigation li {
-    flex: 1;
+    display: flex;
+    justify-content: center; /* Center the link within the list item */
 }
 
 .tab-navigation a {
